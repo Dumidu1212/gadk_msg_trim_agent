@@ -1,4 +1,4 @@
-# GADK Massege Trim Agent
+# Google Agent Development Kit Message Trim Agent
 
 A Python-based agent that helps shorten messages using Google's Agent Development Kit (ADK) and Vertex AI.
 
