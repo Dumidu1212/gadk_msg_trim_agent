@@ -1,4 +1,4 @@
-# GADK Massege Trim Agent
+# Google Agent Development Kit Message Trim Agent
 
 A Python-based agent that helps shorten messages using Google's Agent Development Kit (ADK) and Vertex AI.
 
@@ -16,7 +16,7 @@ A Python-based agent that helps shorten messages using Google's Agent Developmen
 1. Clone the repository:
 ```bash
 git clone https://github.com/Dumidu1212/gadk_msg_trim_agent.git
-cd adk-short-bot
+cd gadk_msg_trim_agent
 ```
 
 2. Install Poetry if you haven't already:
