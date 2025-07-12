@@ -84,9 +84,9 @@ def create_session(resource_id: str, user_id: str) -> None:
     remote_session = remote_app.create_session(user_id=user_id)
     print("Created session:")
     print(f"  Session ID: {remote_session['id']}")
-    print(f"  User ID: {remote_session['user_id']}")
-    print(f"  App name: {remote_session['app_name']}")
-    print(f"  Last update time: {remote_session['last_update_time']}")
+    print(f"  User ID: {remote_session['userId']}")
+    print(f"  App name: {remote_session['appName']}")
+    print(f"  Last update time: {remote_session['lastUpdateTime']}")
     print("\nUse this session ID with --session_id when sending messages.")
 
 
