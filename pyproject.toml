@@ -15,12 +15,12 @@ requests = "^2.31.0"
 google-adk = "^0.1.0"
 pydantic = "^2.11.3"
 python-dotenv = "^1.1.0"
-google-cloud-aiplatform = {extras = ["adk", "agent_engines"], version = "^1.42.1"}
+google-cloud-aiplatform = {version = "^1.42.1", extras = ["adk", "agent_engines"]}
 absl-py = "^2.1.0"
 cloudpickle = "^3.0.0"
 
 [tool.poetry.scripts]
-gadk_msg_trim_agent = "gadk_msg_trim_agent:app"
+gadk-msg-trim-agent = "gadk_msg_trim_agent:app"
 deploy-local = "deployment.local:main"
 deploy-remote = "deployment.remote:main"
 cleanup = "deployment.cleanup:cleanup_deployment"

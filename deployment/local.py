@@ -5,7 +5,7 @@ import vertexai
 from dotenv import load_dotenv
 from vertexai.preview import reasoning_engines
 
-from adk_short_bot.agent import root_agent
+from gadk_msg_trim_agent.agent import root_agent
 
 
 def main():

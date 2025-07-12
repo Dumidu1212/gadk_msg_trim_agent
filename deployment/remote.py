@@ -7,7 +7,7 @@ from dotenv import load_dotenv
 from vertexai import agent_engines
 from vertexai.preview import reasoning_engines
 
-from adk_short_bot.agent import root_agent
+from gadk_msg_trim_agent.agent import root_agent
 
 FLAGS = flags.FLAGS
 flags.DEFINE_string("project_id", None, "GCP project ID.")
@@ -55,7 +55,7 @@ def create() -> None:
         requirements=[
             "google-cloud-aiplatform[adk,agent_engines]",
         ],
-        extra_packages=["./adk_short_bot"],
+        extra_packages=["./gadk_msg_trim_agent"],
     )
     print(f"Created remote app: {remote_app.resource_name}")
 
