@@ -18,6 +18,7 @@ python-dotenv = "^1.1.0"
 google-cloud-aiplatform = {version = "^1.42.1", extras = ["adk", "agent_engines"]}
 absl-py = "^2.1.0"
 cloudpickle = "^3.0.0"
+deprecated = "^1.2.18"
 
 [tool.poetry.scripts]
 gadk-msg-trim-agent = "gadk_msg_trim_agent:app"
